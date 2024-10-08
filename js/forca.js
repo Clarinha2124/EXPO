@@ -102,7 +102,7 @@ function comparalistas(letra){
 
     if(vitoria == true)
     {
-        abreModal("PARABÉNS!", "Você venceu...");
+        abreModal("PARABÉNS!", "Você venceu!");
         tentativas = 0;
         piscarBotaoJogarNovamente(true);
     }
@@ -135,10 +135,10 @@ function carregaImagemForca(){
             document.getElementById("imagem").style.background  = "url('./img/1braço.png')";
             break;
         case 2:
-            document.getElementById("imagem").style.background  = "url('./img/2braço.png')";
+            document.getElementById("imagem").style.background  = "url('./img/2braço 1.png')";
             break;
         case 1:
-            document.getElementById("imagem").style.background  = "url('./img/1perna.png')";
+            document.getElementById("imagem").style.background  = "url('./img/1perna 2.png')";
             break;
         case 0:
             document.getElementById("imagem").style.background  = "url('./img/morreu.png')";
@@ -235,25 +235,27 @@ function carregaListaAutomatica(){
             categoria:"LUGARES"
         },
         palavra007 = {
-            nome: "GROELANDIA",
+            nome: "CANADA",
             categoria:"LUGARES"
         },
         palavra008 = {
-            nome: "UZBEQUISTAO",
+            nome: "BRASIL",
             categoria:"LUGARES"
         },
         palavra009 = {
-            nome: "INDONESIA",
+            nome: "RIO DE JANEIRO",
             categoria:"LUGARES"
         },
         palavra010 = {
-            nome: "CREGUENHEM",
+            nome: "CHINA",
             categoria:"LUGARES"
         },
+
         palavra011 = {
             nome: "BICICLETA",
             categoria:"TRANSPORTE"
         },
+        
         palavra012 = {
             nome: "LANCHA",
             categoria:"TRANSPORTE"
@@ -267,7 +269,7 @@ function carregaListaAutomatica(){
             categoria:"TRANSPORTE"
         },
         palavra015 = {
-            nome: "MOTOCICLETA",
+            nome: "MOTO",
             categoria:"TRANSPORTE"
         },
         palavra016 = {
@@ -275,7 +277,7 @@ function carregaListaAutomatica(){
             categoria:"TRANSPORTE"
         },
         palavra017 = {
-            nome: "AERONAVE",
+            nome: "AVIAO",
             categoria:"TRANSPORTE"
         },
         palavra018 = {
@@ -286,32 +288,34 @@ function carregaListaAutomatica(){
             nome: "CAIAQUE",
             categoria:"TRANSPORTE"
         },
+       
         palavra020 = {
-            nome: "FUNICULAR",
-            categoria:"TRANSPORTE"
-        },
-        palavra021 = {
             nome: "XICARA",
             categoria:"OBJETOS"
         },
-        palavra022 = {
+        palavra021 = {
             nome: "MOEDA",
             categoria:"OBJETOS"
         },
+        palavra022 = {
+            nome: "CELULAR",
+            categoria:"OBJETOS"
+        },
         palavra023 = {
-            nome: "ESPARADRAPO",
+            nome: "CANETA",
             categoria:"OBJETOS"
         },
         palavra024 = {
-            nome: "SINO",
+            nome: "OCULOS",
             categoria:"OBJETOS"
         },
+       
         palavra025 = {
             nome: "CHUVEIRO",
             categoria:"OBJETOS"
         },
         palavra026 = {
-            nome: "TAMBORETE",
+            nome: "COLAR",
             categoria:"OBJETOS"
         },
         palavra027 = {
@@ -319,7 +323,7 @@ function carregaListaAutomatica(){
             categoria:"OBJETOS"
         },
         palavra028 = {
-            nome: "BOCAL",
+            nome: "COMPUTADOR",
             categoria:"OBJETOS"
         },
         palavra029 = {
@@ -343,7 +347,7 @@ function carregaListaAutomatica(){
             categoria:"ALIMENTOS"
         },
         palavra034 = {
-            nome: "GOROROBA",
+            nome: "PIZZA",
             categoria:"ALIMENTOS"
         },
         palavra035 = {
@@ -351,27 +355,27 @@ function carregaListaAutomatica(){
             categoria:"ALIMENTOS"
         },
         palavra036 = {
-            nome: "SABOROSO",
+            nome: "CHOCOLATE",
             categoria:"ALIMENTOS"
         },
         palavra037 = {
-            nome: "DESJEJUM",
+            nome: "BATERRABA",
             categoria:"ALIMENTOS"
         },
         palavra038 = {
-            nome: "MASTIGAR",
+            nome: "SOPA",
             categoria:"ALIMENTOS"
         },
         palavra039 = {
-            nome: "ENGOLIR",
+            nome: "BRIGADEIRO",
             categoria:"ALIMENTOS"
         },
         palavra040 = {
-            nome: "DOCERIA",
+            nome: "ACAI",
             categoria:"ALIMENTOS"
         },
         palavra040 = {
-            nome: "DRAGAO",
+            nome: "BURRO",
             categoria:"ANIMAIS"
         },
         palavra041 = {
@@ -387,7 +391,7 @@ function carregaListaAutomatica(){
             categoria:"ANIMAIS"
         },
         palavra044 = {
-            nome: "PERU",
+            nome: "PASSARO",
             categoria:"ANIMAIS"
         },
         palavra045 = {
@@ -395,15 +399,15 @@ function carregaListaAutomatica(){
             categoria:"ANIMAIS"
         },
         palavra046 = {
-            nome: "DROMEDARIO",
+            nome: "GATO",
             categoria:"ANIMAIS"
         },
         palavra047 = {
-            nome: "CALANGO",
+            nome: "CACHORRO",
             categoria:"ANIMAIS"
         },
         palavra048 = {
-            nome: "SAGUI",
+            nome: "RAPOSA",
             categoria:"ANIMAIS"
         },
         palavra049 = {
@@ -423,19 +427,19 @@ function carregaListaAutomatica(){
             categoria:"TV E CINEMA"
         },
         palavra053 = {
-            nome: "CASA MONSTRO",
+            nome: "BATMAN",
             categoria:"TV E CINEMA"
         },
         palavra054 = {
-            nome: "TELA QUENTE",
+            nome: "HARRY POTTER",
             categoria:"TV E CINEMA"
         },
         palavra055 = {
-            nome: "STRANGER THINGS",
+            nome: "CINDERELA",
             categoria:"TV E CINEMA"
         },
         palavra056 = {
-            nome: "O REI DO GADO",
+            nome: "MATRIX",
             categoria:"TV E CINEMA"
         },
         palavra057 = {
@@ -451,7 +455,7 @@ function carregaListaAutomatica(){
             categoria:"TV E CINEMA"
         },
         palavra060 = {
-            nome: "PANICO NA TV",
+            nome: "PRINCESA E O SAPO",
             categoria:"TV E CINEMA"
         }
     ];
