@@ -269,7 +269,7 @@ function carregaListaAutomatica(){
             categoria:"TRANSPORTE"
         },
         palavra015 = {
-            nome: "MOTO",
+            nome: "ONIBUS",
             categoria:"TRANSPORTE"
         },
         palavra016 = {
@@ -359,7 +359,7 @@ function carregaListaAutomatica(){
             categoria:"ALIMENTOS"
         },
         palavra037 = {
-            nome: "BATERRABA",
+            nome: "BETERRABA",
             categoria:"ALIMENTOS"
         },
         palavra038 = {
@@ -458,7 +458,9 @@ function carregaListaAutomatica(){
             nome: "PRINCESA E O SAPO",
             categoria:"TV E CINEMA"
         }
+      
     ];
+
 }
 
 function adicionarPalavra(){
